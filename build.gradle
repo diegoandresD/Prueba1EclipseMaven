@@ -42,7 +42,7 @@ publishing {
 }
 
 artifactory {
-    contextUrl = 'http://localhost:8082/'
+    contextUrl = 'http://localhost:8082/artifactory/'
     publish {
         repository {
             repoKey = 'prueba-evaluacion-2' // The Artifactory repository key to publish to
